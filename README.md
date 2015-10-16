@@ -17,4 +17,6 @@ This simulation uses Babel's feasibility condition before accepting a routing up
 **A** will accept an update about **S** from **B** if the distance *D* that **B** is advertising for **S** is smaller than **A**'s feasibility distance *FD* (the smallest distance that **A** has ever advertised for **S**).
 
 
+There are a few different networks testing different things. Uncomment them in `index.js` to see how they work.
+
 MIT license
