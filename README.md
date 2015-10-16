@@ -12,11 +12,9 @@ Nodes send updates to one another consisting of their distance to all other node
 
 This simulation uses Babel's feasibility condition before accepting a routing update to mitigate this phenomenon.
 
-```
-A accepts update if D(B) < FD(A)
-```
+**A** accepts update about **S** if *D*(**S**, **B**) < *FD*(**S**, **A**)
 
-`A` will accept an update about `S` from `B` if the distance that `B` is advertising for `S` is smaller than `A`'s feasibility distance (the smallest distance that `A` has ever advertised for `S`).
+**A** will accept an update about **S** from **B** if the distance *D* that **B** is advertising for **S** is smaller than **A**'s feasibility distance *FD* (the smallest distance that **A** has ever advertised for **S**).
 
 
 MIT license
