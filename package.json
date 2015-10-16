@@ -1,7 +1,6 @@
 {
-  "name": "Althea",
+  "name": "Bellman-Ford-Routing",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "mkdir -p dist & watchify -v -t babelify -d index.js -o dist/bundle.js & http-server . -p 4456 > /dev/null"
   },
